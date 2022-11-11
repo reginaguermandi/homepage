@@ -1,0 +1,11 @@
+.App {
+  margin: 1rem;
+  /*border: 1px solid red;*/
+}
+
+@media (min-width: 1024px) { 
+  .App {
+    margin: 5rem 15rem;
+    border: 1px solid red;
+  }
+}
