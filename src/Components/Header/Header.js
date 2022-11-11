@@ -1,7 +1,10 @@
+//import Button from '../Button/Button';
 import './Header.css';
 
 export default function Header() {
   return (
-    <div>Eu sou Header</div>
+    <header>
+      {/* <Button />*/}
+    </header>
   )
 }

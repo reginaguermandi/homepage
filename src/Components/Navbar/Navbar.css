@@ -1,8 +1,7 @@
 :root {
   --primary-soft: hsl(35, 77%, 62%);
   --primary-heavy: hsl(5, 85%, 63%);
-  --neutral: hsl(36, 100%, 99%);
-  
+  --neutral: hsl(36, 100%, 99%);  
 }
 
 .navbar-container {

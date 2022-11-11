@@ -8,11 +8,10 @@ export default function Navbar() {
   const [active, setMode] = useState(false);
   const toggleMode = () => {
     setMode(!active)
-  }
+  };
 
   const links = ['Home', 'New', 'Popular', 'Trending', 'Categories'];
   const listLinks = links.map((link, index) => <li key={index}><a href="#">{link}</a></li>);
-
 
   return (
     <nav className="navbar-container">
