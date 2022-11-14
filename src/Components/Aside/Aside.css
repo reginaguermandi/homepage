@@ -1,12 +1,12 @@
 .aside-container {
   margin-top: 3rem;
+  max-width: 25rem;
+  overflow: auto;
   background-color: hsl(240, 100%, 5%);
-
-  border: 2px solid blue;
 }
 
 .aside-container h2 {
-  padding: 1rem;
+  padding: 1rem 0 0 1rem;
   font-size: 1.5rem;
   font-weight: 600;
   color: hsl(35, 77%, 62%);
@@ -24,11 +24,45 @@
 .news h3 {
   font-weight: 600;
   font-size: 1.2rem;
-  padding: 1.5rem 0 1rem 0;
+  padding: 1rem 0 1.2rem 0;
   color: hsl(36, 100%, 99%);
 }
 
 .news p {  
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
   color:hsl(233, 8%, 79%);
+}
+
+/* --------------- TABLET ------------------------*/
+
+@media (min-width: 768px) {
+  .aside-container {
+    max-width: 100%;
+  }
+}
+
+/*---------------- LAPTOP -----------------------*/
+
+
+@media (min-width: 1024px) {
+  .aside-container {
+    position: absolute;
+    margin-top: 0;
+    max-width: 19rem;
+    right: 0;
+    top: 3.5rem;
+  }
+}
+
+/*---------------- DESKTOP -----------------------*/
+
+@media (min-width: 1680px) {
+  .aside-container {
+    position: absolute;
+    margin-top: 0;
+    height: 38rem;
+    overflow: auto;
+    right: 0;
+    top: 3.5rem;
+  }
 }

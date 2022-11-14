@@ -55,7 +55,9 @@
   line-height: 3rem;
 }
 
-@media (min-width: 1024px) { 
+
+/* -------------- TABLET/LAPTOP/DESKTOP ------------------*/
+@media (min-width: 768px) { 
     .menu {
       display: none;
     }

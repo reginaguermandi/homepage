@@ -1,6 +1,6 @@
 .hero-container{
   max-width: 42rem;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .hero-image {
@@ -25,13 +25,11 @@
 }
 
 
-/* ---------------------------------------------- */
+/* --------------- TABLET/LAPTOP ------------------------*/
 
-
-
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .hero-container{
-    max-width: 39rem;
+    max-width: 40rem;
   }
 
   .text-container {
@@ -50,11 +48,11 @@
 
   .p-container {
     width: 20rem;
+    padding: 1rem;
   }
 }
 
-
-/* ---------------------------------------------- */
+/*---------------- DESKTOP -----------------------*/
 
 
 @media (min-width: 1680px) {
