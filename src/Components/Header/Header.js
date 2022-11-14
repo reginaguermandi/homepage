@@ -7,6 +7,7 @@ import './Header.css';
 export default function Header() {
   return (
     <header className='hero-container'>
+
       <div className='image-container'>
         <img
           className='hero-image'
@@ -17,7 +18,6 @@ export default function Header() {
       </div>
 
       <div className='text-container'>
-
         <div className='title-container'>
           <h1>The Bright Future of Web 3.0?</h1>
         </div>
@@ -26,7 +26,6 @@ export default function Header() {
           <p>We dive into the next evolution of the web that claims to put the power of the plataforms back into the hands of the people.But is it really fulfilling its promise?</p>
           <Button />
         </div>
-
       </div>
     </header>
   )

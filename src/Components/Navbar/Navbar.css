@@ -29,7 +29,9 @@
 }
 
 .close.active {
+  position: relative;
   display: block;
+  z-index: 1;
 }
 
 .links-container {
@@ -38,7 +40,6 @@
 
 .links-container.active {
   position: absolute;
-  z-index: -1;
   display: block;
   top: 0;
   bottom: 0;
