@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-size: 15px;
 	line-height: 1;
 	font-family: 'Inter', sans-serif;
 }

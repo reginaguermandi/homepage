@@ -1,0 +1,35 @@
+.article-container {
+  margin-top: 2rem;
+}
+
+.articles-card {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0; 
+}
+
+.article-content {
+  padding: 0 1rem;
+}
+
+.article-content span {
+  font-size: 2rem;
+  font-weight: 600;
+  color:hsl(233, 8%, 79%);
+}
+
+.article-content h1 {
+  font-size: 1rem;
+  font-weight: 800;
+  padding: 1rem 0;
+} 
+
+.article-content p {
+  color: hsl(236, 13%, 42%);
+}
+
+@media (min-width: 1024px) {
+  .article-container {
+   display: flex;   
+  } 
+}

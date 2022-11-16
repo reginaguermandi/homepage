@@ -2,7 +2,7 @@ import './Aside.css';
 
 export default function Aside() {
   return (
-    <div className='aside-container'>
+    <aside className='aside-container'>
       <h2>New</h2>
 
       <div className='news-container'>
@@ -25,6 +25,6 @@ export default function Aside() {
           <p>Private funding by VC firms is down 50% YOY.We take a look at what that means.</p>
         </div>
       </div>
-    </div>
+    </aside>
   )
 }
