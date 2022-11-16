@@ -75,4 +75,10 @@
     a:hover {
       color: var(--primary-heavy);
     }
- }
+}
+
+@media (min-width: 1440px) {
+  .links-container ul li {
+    padding-left: 3.5rem;
+  }
+}

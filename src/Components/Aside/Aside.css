@@ -56,13 +56,27 @@
 
 /*---------------- DESKTOP -----------------------*/
 
-@media (min-width: 1680px) {
+@media (min-width: 1440px) {
   .aside-container {
     position: absolute;
+    max-width: 24.5rem;
     margin-top: 0;
-    height: 38rem;
+    height: 35rem;
     overflow: auto;
     right: 0;
     top: 3.5rem;
+  }
+
+  .aside-container h2 {
+    padding: 2rem 0 0 2rem;
+    font-size: 3rem;
+  }
+
+  .news-container {
+    padding: 2rem;
+  }
+
+  .news h3 {
+    font-size: 1.5rem;
   }
 }

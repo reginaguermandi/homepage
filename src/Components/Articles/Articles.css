@@ -28,8 +28,20 @@
   color: hsl(236, 13%, 42%);
 }
 
+
+/* ---------------- LAPTOP/DESKTOP------------------------ */
+
+
 @media (min-width: 1024px) {
   .article-container {
    display: flex;   
+  } 
+
+  .article-content span {
+    font-size: 3rem;    
+  }
+  
+  .article-content h1 {
+    font-size: 1.5rem;   
   } 
 }

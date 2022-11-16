@@ -11,8 +11,8 @@ export default function Articles() {
           <div className='image-container'>
             <img
               src={article.image}
-              alt='keyboard'
-              width='115px'
+              alt='tech devices'
+              width='130px'
             ></img>
           </div>
 

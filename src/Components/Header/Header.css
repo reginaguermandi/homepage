@@ -1,6 +1,5 @@
 .hero-container{
   max-width: 42rem;
-  /*border: 2px solid red;*/
 }
 
 .hero-image {
@@ -55,17 +54,18 @@
 /*---------------- DESKTOP -----------------------*/
 
 
-@media (min-width: 1680px) {
+@media (min-width: 1440px) {
   .hero-container{
-    max-width: 60rem;
+    max-width: 52rem;
   }
 
   .title-container {
     width: 20rem;
  } 
 
- .title-container{
-  width: 50rem;  
+  .title-container{
+    width: 45rem;
+    padding-right: 1rem;  
   }
 
   .title-container h1 {
