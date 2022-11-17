@@ -32,9 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/reginaguermandi/homepage)
-
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://news-react-homepage.netlify.app/)
 
 ## My process
 
