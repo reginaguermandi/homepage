@@ -27,19 +27,22 @@ Users should be able to:
 
 ### Screenshot
 
-![Inicial State](./public/inicial-state.png.)
+![Inicial State](./public/inicial-state.png)
 ![Mobile Version](./public/mobile-v.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/reginaguermandi/homepage)
+
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 First I did a little research on how to start this project and I understood that for a small application another framework would not be necessary, I chose to use only CSS for customization because my focus would be to understand the structure of the files and separate the components as clearly as possible.
+
 To make the navigation links and the list of articles, I chose to use the ```map``` method, with the articles being imported from a data.js file.
 In terms of responsiveness, I first chose to make it mobile and then adapt it to other screens, I had a little difficulty with screens larger than 1440px because it broke the layout, but after researching I found the solution using ```max-width``` and it worked fine.
+
 Obviously there's a lot to be learned, but I was satisfied with this first attempt at React.js and will continue to study further.
 
 ### Built with
@@ -54,7 +57,7 @@ Obviously there's a lot to be learned, but I was satisfied with this first attem
 
 ### Useful resources
 
-- [React srcset for Responsive Images](https://crystallize.com/blog/react-srcset-for-responsive-images) - 
+- [React srcset for Responsive Images](https://crystallize.com/blog/react-srcset-for-responsive-images)
 
 ## Author
 
