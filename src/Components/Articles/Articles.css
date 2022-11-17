@@ -34,7 +34,9 @@
 
 @media (min-width: 1024px) {
   .article-container {
-   display: flex;   
+   display: grid;
+   grid-auto-flow: column;
+   grid-auto-columns: 1fr;   
   } 
 
   .article-content span {
